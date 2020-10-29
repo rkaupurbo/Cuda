@@ -1,0 +1,629 @@
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+ 	.header-section {
+    	padding: 10px 0 0px;
+	
+	}
+
+	.banner-text {
+    
+	    padding: 0px 0px;
+
+	}
+
+	.banner-text h1 {
+	    font-size: 25px;
+	    padding: 15px 0 15px;
+
+	}
+
+	.banner-text a{
+		padding: 7px 10px;
+	    font-size: 14px;
+	    margin-bottom: 20px;
+	}
+	
+  	.service-section {
+    
+	    padding: 20px 0px;
+
+	}
+
+	.service-section .service-headings h2 {
+	    font-size: 25px;
+	
+	}
+
+	.service-section .service-headings p {
+	    font-size: 14px;
+	    padding: 0 25px;
+	
+	}
+
+	.service-section .icons {
+	    padding: 0px 0px 20px;
+	}
+
+	.service-section .icons img {
+
+	    padding-bottom: 10px;
+	    max-width: 35%;
+	}
+
+	.service-section .icons h4 {
+	    font-size: 20px;
+	    padding-bottom: 0px;
+	}
+
+	.service-section .icons p {
+	    font-size: 14px;
+	    padding-bottom: 10px;
+	}
+	.team-details{
+		padding: 0;
+	}
+	.team-details .team-heading h1 {
+	    font-size: 24px;
+	
+	}
+
+	.team-details .team-heading p {
+	    font-size: 14px;
+	}
+
+	.team-details .team-icons {
+	    padding: 0px 0 20px;
+	}
+
+	.team-details .team-icons img {
+	    
+	    width: 40%;
+	}
+
+	.team-details .team-icons h6 {
+	    font-size: 18px;
+	}
+
+	.team-details .team-icons .position {
+	    font-size: 14px;
+	    margin-bottom: 5px;
+	}
+
+	.team-details .team-icons .position p{
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+
+	.skills-section{
+		padding: 0;
+	}
+
+	.skills-section .skills-heading h1 {
+	    font-size: 24px;
+	}
+
+	.skills-section .skills-heading p {
+	    font-size: 14px;
+	    padding: 0 30px;
+	}
+
+	.skills-section .progress-section {
+	    width: 100%;
+	    padding: 5px 0px;
+
+	}
+
+	.skills-section .progress-section h5 {
+	    font-size: 20px;
+
+	}
+
+	.aboutus-section {
+	    padding: 0px 0px;
+
+	}
+	.aboutus-section .port-texts h4 {
+	    font-size: 24px;
+	}
+
+	.aboutus-section .port-texts p {
+	    font-size: 14px;
+	    padding: 0px 26px;
+	}
+	.aboutus-section .port-texts {
+	    width: 100%;
+	    padding: 20px 0px 0px;
+	}
+
+	.abouts-butn {
+    	padding: 0px 0 20px;
+	}
+	.port-inner img {
+	    max-width: 75%;
+	    margin-bottom: 15px;
+	}
+
+	.port-inner h6 {
+
+    	padding-bottom: 20px;
+	}
+	.for-buton a {
+	    padding: 7px 9px;
+	    margin-bottom: 20px;
+	    font-size: 16px;
+
+	}
+	.peoples-recomendetion {
+	    width: 100%;
+	    padding: 0px 0px 0px;
+	}
+
+
+	.peoples-recomendetion .peoples-texts h4 {
+    	font-size: 24px;
+	}
+
+	.peoples-recomendetion .peoples-texts {
+   		padding: 30px 0px 10px;
+	}
+
+	.peoples-recomendetion .clients-image {
+
+    	text-align: center;
+	}
+	.peoples-recomendetion .clients-comment p {
+	    font-size: 14px;
+	    text-align: center;
+	}
+	.peoples-recomendetion .clients-comment h5 {
+	    font-size: 18px;
+	    text-align: center;
+	}
+	.peoples-recomendetion .clients-comment h6 {
+	    font-size: 14px;
+	    text-align: center;
+	}
+	.peoples-recomendetion .clients-comment {
+    	padding: 0 0px 20px;
+	}
+	.peoples-recomendetion .clients-image img {
+    	margin-bottom: 10px;
+	}
+
+	.get-touch {
+
+    	padding: 0px 0px 0px;
+	}
+
+	.get-touch .touch-texts h4 {
+    	font-size: 24px;
+	}
+
+	.get-touch .touch-texts p {
+    	font-size: 14px;
+    	padding: 0 20px;
+	}
+
+	.get-touch .touch-texts {
+    	width: 100%;
+    	padding: 30px 0px 10px;
+	
+	}
+
+	.get-touch .form-control {
+	    padding: 17px 11px;
+	    font-size: 14px;
+
+	}
+	.get-touch textarea {
+	    height: 90px;
+	    padding: 11px 10px;
+	}
+
+	.send-msg a {
+	    padding: 7px 10px;
+	    font-size: 14px;
+	    margin-top: 8px;
+	    margin-bottom: 12px;
+	}
+
+	.footer-section .social-parts ul li a {
+
+    	font-size: 14px;
+
+	}
+
+}
+
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+ 
+ 	.header-section {
+    	padding: 10px 0 0px;
+	
+	}
+
+	.banner-text {
+    
+    	padding: 0px 0px;
+
+	}
+
+	.banner-text h1 {
+	    font-size: 25px;
+	    padding: 15px 0 15px;
+
+	}
+
+	.banner-text a{
+		padding: 7px 10px;
+	    font-size: 14px;
+	    margin-bottom: 20px;
+	}
+  	.service-section {
+    
+    	padding: 10px 0px 25px;
+
+	}
+
+	.service-section .service-headings h2 {
+    	font-size: 25px;
+	
+	}
+
+	.service-section .service-headings p {
+    	font-size: 14px;
+    	padding: 0 25px;
+	
+	}
+
+	.service-section .icons {
+
+    	padding: 35px 0px 0px;
+	}
+
+	.service-section .icons img {
+
+    	padding-bottom: 10px;
+	}
+
+	.service-section .icons h4 {
+	    font-size: 20px;
+	    padding-bottom: 0px;
+	}
+
+	.service-section .icons p {
+	    font-size: 14px;
+	    padding-bottom: 10px;
+	}
+	.team-details{
+		padding: 0;
+	}
+	.team-details .team-heading h1 {
+    	font-size: 24px;
+	
+	}
+
+	.team-details .team-heading p {
+    	font-size: 14px;
+	}
+
+	.team-details .team-icons {
+    	padding: 0px 0 20px;
+	}
+
+	.team-details .team-icons h6 {
+    	font-size: 18px;
+	}
+
+	.team-details .team-icons .position {
+	    font-size: 14px;
+	    margin-bottom: 5px;
+	}
+
+	.team-details .team-icons .position p{
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+
+	.skills-section{
+		padding: 0;
+	}
+
+	.skills-section .skills-heading h1 {
+    	font-size: 24px;
+	}
+
+	.skills-section .skills-heading p {
+	    font-size: 14px;
+	    padding: 0 30px;
+	}
+
+	.skills-section .progress-section {
+	    width: 100%;
+	    padding: 5px 0px;
+
+	}
+
+	.skills-section .progress-section h5 {
+    	font-size: 20px;
+
+	}
+
+	.aboutus-section {
+    	padding: 0px 0px;
+
+	}
+	.aboutus-section .port-texts h4 {
+    	font-size: 24px;
+	}
+
+	.aboutus-section .port-texts p {
+	    font-size: 14px;
+	    padding: 0px 26px 10px;
+	}
+	.aboutus-section .port-texts {
+	    width: 100%;
+	    padding: 20px 0px 0px;
+	}
+
+	.abouts-butn {
+    	padding: 0px 0 20px;
+	}
+	.port-inner img {
+	    max-width: 75%;
+	    margin-bottom: 15px;
+	}
+
+	.port-inner h6 {
+
+    	padding-bottom: 20px;
+	}
+	.for-buton a {
+	    padding: 7px 9px;
+	    margin-bottom: 20px;
+	    font-size: 16px;
+
+	}
+	.peoples-recomendetion {
+	    width: 100%;
+	    padding: 0px 0px 0px;
+	}
+
+
+	.peoples-recomendetion .peoples-texts h4 {
+    	font-size: 24px;
+	}
+
+	.peoples-recomendetion .peoples-texts {
+    	padding: 30px 0px 20px;
+	}
+
+	.peoples-recomendetion .clients-image {
+
+    	text-align: center;
+	}
+	.peoples-recomendetion .clients-comment p {
+	    font-size: 14px;
+	    text-align: center;
+	}
+	.peoples-recomendetion .clients-comment h5 {
+	    font-size: 18px;
+	    text-align: center;
+	}
+	.peoples-recomendetion .clients-comment h6 {
+	    font-size: 14px;
+	    text-align: center;
+	}
+	.peoples-recomendetion .clients-comment {
+    	padding: 0 0px 20px;
+	}
+	.peoples-recomendetion .clients-image img {
+    	margin-bottom: 10px;
+	}
+
+	.get-touch {
+
+    	padding: 0px 0px 0px;
+	}
+
+	.get-touch .touch-texts h4 {
+	    font-size: 24px;
+	}
+
+	.get-touch .touch-texts p {
+	    font-size: 14px;
+	    padding: 0 20px;
+	}
+
+	.get-touch .touch-texts {
+	    width: 100%;
+	    padding: 30px 0px 10px;
+	
+	}
+
+	.get-touch .form-control {
+	    padding: 17px 11px;
+	    font-size: 14px;
+
+	}
+	.get-touch textarea {
+	    height: 90px;
+	    padding: 11px 10px;
+	}
+
+	.send-msg a {
+	    padding: 7px 10px;
+	    font-size: 14px;
+	    margin-top: 8px;
+	    margin-bottom: 25px;
+	}
+
+	.footer-section .social-parts ul li a {
+
+    	font-size: 14px;
+
+	}
+
+
+
+}
+
+
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+
+	p{
+		font-size: 14px;
+	}
+  
+ 	.banner-text {
+
+    	padding: 40px 0px 0px;
+	}
+
+	.banner-text h1 {
+	    font-size: 35px;
+	    padding-bottom: 20px;
+	}
+
+	.service-section {
+	    padding: 40px 0px 20px;
+	}
+	.service-section .service-headings h2 {
+	    font-size: 35px;
+	    
+	}
+	.service-section .icons img {
+	    max-width: 100%;
+	    padding-bottom: 20px;
+	}
+
+	.service-section .icons h4 {
+	    font-size: 20px;
+	    padding-bottom: 5px;
+	}
+
+	.team-details{
+		padding: 40px 0px 20px;
+	}
+
+
+	.team-details .team-heading h1 {
+    	font-size: 35px;
+    
+	}
+	.team-details .team-icons h6 {
+    	font-size: 19px;
+	
+	}
+	.skills-section{
+		 padding: 40px 0px 20px;
+	}
+	.skills-section .progress-section img {
+    	max-width: 90%;
+	}
+
+	.skills-section .skills-heading h1 {
+   		font-size: 35px;
+	}
+
+	.skills-section .progress-section h5 {
+    	font-size: 20px;
+
+	}
+	.aboutus-section {
+	    width: 100%;
+	    padding: 40px 0px 60px;
+    
+	}
+
+
+	.port-inner img {
+    	max-width: 90%;
+    
+	}
+
+	.abouts-butn {
+
+	    padding: 0px 0 30px;
+	}
+
+
+	.for-buton a {
+		padding: 8px 20px;
+		font-size: 16px;
+	}
+
+	.get-touch {
+    	padding: 40px 0px 65px;
+	}
+
+	.get-touch .touch-texts h4 {
+	    font-size: 35px;
+	    
+	}
+
+
+	.get-touch textarea {
+
+    	height: 130px;
+
+	}
+	.send-msg a {
+	    padding: 8px 25px;
+	    font-size: 16px;
+	    margin-top: 20px;
+	}
+
+
+	.peoples-recomendetion .peoples-texts h4 {
+	    font-size: 35px;
+
+	}
+
+	.peoples-recomendetion {
+	    width: 100%;
+	    padding: 40px 0px 0px;
+	}
+
+
+	.footer-section .social-parts ul li {
+	    margin: 0 15px;
+	    padding: 5px 0px;
+	}
+
+	.peoples-recomendetion .clients-comment h5 {
+	    font-size: 20px;
+	  
+	}
+
+
+	.footer-section .social-parts ul li a {
+    	color: #fff;
+	    font-weight: 500;
+	}
+ 
+}
+
+
+

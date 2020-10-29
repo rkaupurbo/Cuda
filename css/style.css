@@ -1,0 +1,1298 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Titillium Web', sans-serif;
+}
+p{
+	margin: 0;
+	padding: 0;
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+
+
+.header-section{
+	width: 100%;
+	background: #87509c;
+	padding: 20px 0 50px;
+}
+
+
+.header-section .bg-light{
+	width: 100%;
+	background: transparent!important;
+	position: relative;
+	z-index: 15;
+	
+}
+
+.header-section .navbar-light .navbar-nav .nav-link{
+	font-size: 16px;
+	color: #fff;
+	font-weight: 600;
+	margin-left: 15px;
+	transition: .4s ease-out;
+
+}
+
+
+/*.header-section .navbar-wrapper{
+	width: 100%;
+	position: relative;
+	background: #000;
+	z-index: 15;
+}*/
+.header-section .isStuck{
+	 left: 0px;
+	 background: #000!important;
+	 margin-top: 20px;
+	 opacity: .7;
+
+}
+
+
+.header-section .navbar-light .navbar-nav .nav-link:hover{
+	background: #643a79;
+}
+
+.banner-text{
+	width: 100%;
+	text-align: center;
+	padding: 80px 0px;
+}
+
+.banner-text h1{
+	font-size: 40px;
+	font-weight: 700;
+	color: #fff;
+	padding-bottom: 30px;
+}
+
+.banner-text a{
+	display: inline-block;
+	background: #eb7d4b;
+	padding: 10px 35px;
+	border: 1px solid #eb7d4b;
+	color: #fff;
+	font-size: 18px;
+	transition: .4s ease-in-out;
+}
+
+.banner-text a:hover{
+	background: transparent;
+
+	border: 1px solid #fff;
+	color: #fff;
+	font-size: 18px;
+}
+
+
+/*service-section*/
+
+
+.service-section{
+	width: 100%;
+	padding: 80px 0px;
+	background: #17c2a4;
+}
+
+.service-section .service-headings{
+	width: 100%;
+	padding: 30px 0px;
+	text-align: center;
+	
+}
+
+.service-section .service-headings h2{
+	font-size: 40px;
+	font-weight: 700;
+	color: #fff;
+	padding-bottom: 0px;
+}
+
+.service-section .service-headings img{
+	padding-bottom: 15px;
+}
+
+.service-section .service-headings p{
+	font-size: 16px;
+	font-weight: 400;
+	color: #fff;
+}
+
+.service-section .icons{
+	width: 100%;
+	text-align: center;
+	padding: 35px 0px;
+}
+
+
+.service-section .icons img{
+	
+	padding-bottom: 30px;
+}
+
+.service-section .icons h4{
+	font-size: 24px;
+	font-weight: 600;
+	color: #fff;
+	padding-bottom: 10px;
+}
+
+.service-section .icons p{
+	font-size: 16px;
+	font-weight: 400;
+	color: #fff;
+	padding-bottom: 30px;
+}
+
+/*service-section*/
+
+/*team-details*/
+
+
+
+
+
+.team-details{
+	width: 100%;
+	padding: 80px 0px;
+	background: #e7f1f8;
+}
+
+.team-details .team-heading{
+	width: 100%;
+	padding: 30px 0px;
+	text-align: center;
+	
+}
+
+.team-details .team-heading h1{
+	font-size: 40px;
+	font-weight: 700;
+	color: #3c4761;
+	padding-bottom: 0px;
+}
+
+.team-details .team-heading img{
+	padding-bottom: 15px;
+}
+
+.team-details .team-heading p{
+	font-size: 16px;
+	font-weight: 400;
+	color: #3c4761;
+}
+
+.team-details .team-icons{
+
+	width: 100%;
+	padding: 40px 0px;
+	text-align: center;
+}
+.team-details .team-icons img{
+
+padding-bottom: 15px;
+max-width: 100%;
+}
+
+.team-details .team-icons h6{
+
+font-size: 24px;
+
+color: #3d3f50;
+}
+
+.team-details .team-icons .position{
+
+	color: #30bae7;
+
+	font-size: 16px;
+}
+
+.team-details .social-connection{
+
+	width: 100%;
+}
+
+.team-details .social-connection ul{
+
+	display: block;
+}
+
+.team-details .social-connection li{
+	
+	display: inline-block;	
+	margin: 0 10px;
+	list-style: none;
+
+
+}
+
+.team-details .social-connection ul li a{
+	text-decoration: none;
+	text-align: center;
+	
+}
+
+.team-details .social-connection ul li a:hover{
+	text-decoration: none;	
+}
+
+.team-details .social-connection .fa{
+	width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background: #bdd1df;
+    color: white;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 15px;
+    
+}
+
+
+		/*/skills-section*/
+
+.skills-section{
+	width: 100%;
+	padding: 80px 0px;
+	background: #ffffff;
+}
+
+.skills-section .skills-heading{
+	width: 100%;
+	padding: 30px 0px;
+	text-align: center;
+	
+}
+
+.skills-section .skills-heading h1{
+	font-size: 40px;
+	font-weight: 700;
+	color: #3c4761;
+	padding-bottom: 0px;
+}
+
+.skills-section .skills-heading img{
+	padding-bottom: 15px;
+}
+
+.skills-section .skills-heading p{
+	font-size: 16px;
+	font-weight: 400;
+	color: #3c4761;
+}
+
+
+
+.skills-section .progress-section{
+	width: 100%;
+	padding: 30px 0px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.skills-section .progress-section img{
+	max-width: 100%;
+	margin-bottom: 10px;
+}
+
+.skills-section .progress-section h5{
+	font-size: 24px;
+	font-weight: 600;
+	color: #3c4761;
+	padding-bottom: 5px;
+}
+
+
+		/*/skills-section*/
+
+
+
+		/*aboutus-section*/
+
+.aboutus-section{
+	width: 100%;
+	padding: 80px 0px;
+	background: #ffdd99;
+}
+
+.aboutus-section .port-texts{
+	width: 100%;
+	padding: 30px 0px;
+	text-align: center;
+	
+}
+
+.aboutus-section .port-texts h4{
+	font-size: 40px;
+	font-weight: 700;
+	color: #3c4761;
+	padding-bottom: 0px;
+}
+
+.aboutus-section .port-texts img{
+	max-width: 100%;
+	padding-bottom: 15px;
+}
+
+.aboutus-section .port-texts p{
+	font-size: 16px;
+	font-weight: 400;
+	color: #3c4761;
+}
+
+.abouts-butn{
+	width: 100%;
+	text-align: center;
+	padding: 0px 0 60px;
+}
+
+.abouts-butn ul{
+	display: block;
+}
+
+.abouts-butn ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 0 7px;
+}
+
+.abouts-butn ul li a{
+	font-size: 14px;
+	background: #ebc985;
+	text-transform: uppercase;
+	border: 1px solid #ebc985;
+	color: #514c43;
+	transition: .4s;
+
+}
+
+.abouts-butn ul li a:hover, .abouts-butn ul li a:focus{
+	background: #ffffff;
+	border: 1px solid #fff;
+	color: #514c43;
+}
+
+
+.port-inner{
+	width: 100%;
+	text-align: center;
+
+}
+
+.port-inner h6{
+	font-size: 18px;
+	font-weight: 400;
+	color: #3c4761;
+	padding-bottom: 40px;
+}
+
+.port-inner img{
+	max-width: 100%;
+	margin-bottom: 20px;
+}
+
+.for-buton{
+	width: 100%;
+	text-align: center;
+}
+
+.for-buton a{
+	display: inline-block;
+    background: #17c2a4;
+    padding: 10px 35px;
+    border: 1px solid #17c2a4;
+    color: #fff;
+    font-size: 18px;
+    transition: .4s ease-in-out;
+}
+
+.for-buton a:hover, .for-buton a:focus{
+	background: transparent;
+	border: 1px solid #17c2a4;
+	color: #17c2a4;
+}
+		/*aboutus-section*/
+
+
+
+
+		/*peoples-recomendetion*/
+
+
+
+
+.peoples-recomendetion{
+	width: 100%;
+	padding: 70px 0px 30px;
+	background: #d74680;
+}
+
+.peoples-recomendetion .peoples-texts{
+	width: 100%;
+	padding: 30px 0px 40px;
+	text-align: center;
+	
+}
+
+.peoples-recomendetion .peoples-texts h4{
+	font-size: 40px;
+	font-weight: 700;
+	color: #ffffff;
+	padding-bottom: 0px;
+}
+
+.peoples-recomendetion .peoples-texts img{
+	max-width: 100%;
+	padding-bottom: 15px;
+}
+
+.peoples-recomendetion .peoples-texts p{
+	font-size: 16px;
+	font-weight: 400;
+	color: #ffffff;
+}
+
+.peoples-recomendetion .clients-image{
+	width: 100%;
+	overflow: hidden;
+}
+
+.peoples-recomendetion .clients-image img{
+	max-width: 100%;
+	
+}
+
+.peoples-recomendetion .clients-comment{
+	width: 100%;
+	padding:  0 0px 90px;
+
+}
+
+.peoples-recomendetion .clients-comment p{
+	font-size: 16px;
+	font-weight: 500;
+	color: #ffffff;
+	padding-bottom: 5px;
+	
+}
+
+.peoples-recomendetion .clients-comment h5{
+	font-size: 30px;
+	font-weight: 700;
+	color: #ffffff;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+	
+}
+.peoples-recomendetion .clients-comment h6{
+	font-size: 16px;
+	font-weight: 400;
+	color: #ffdd99;
+	
+	
+}
+
+
+/*peoples-recomendetion*/
+
+
+
+
+   /*get-touch*/
+
+
+.get-touch{
+	width: 100%;
+	padding: 70px 0px 70px;
+	background: #3c5499;
+}
+
+.get-touch .touch-texts{
+	width: 100%;
+	padding: 30px 0px 40px;
+	text-align: center;
+	
+}
+
+.get-touch .touch-texts h4{
+	font-size: 40px;
+	font-weight: 700;
+	color: #ffffff;
+	padding-bottom: 0px;
+}
+
+.get-touch .touch-texts img{
+	max-width: 100%;
+	padding-bottom: 15px;
+}
+
+.get-touch .touch-texts p{
+	font-size: 16px;
+	font-weight: 400;
+	color: #ffffff;
+}
+
+
+.get-touch .form-control{
+	background: #273a71;
+	padding: 21px 20px;
+	border: 1px solid #273a71;
+	font-size: 16px;
+	color: #fff;
+}
+
+.get-touch input{
+	font-size: 16px;
+	color: #fff;
+}
+
+.get-touch input:focus, .get-touch input:active{
+	border: 1px solid transparent!important;
+	box-shadow: none!important;
+	outline: none;
+}
+.get-touch ::placeholder{
+	color: #fff;
+}
+
+
+
+.get-touch textarea{
+	width: 100%;
+	margin-top: 20px;
+	height: 180px;
+	background: #273a71;
+	padding: 10px 20px;
+	color: #fff;
+}
+
+
+.get-touch textarea:focus, .get-touch textarea:active{
+	border: 1px solid transparent!important;
+	box-shadow: none!important;
+	outline: none!important;
+}
+
+.send-msg{
+	width: 100%;
+	text-align: center;
+}
+
+.send-msg a{
+	display: inline-block;
+    background: #30bae7;
+    padding: 10px 35px;
+    border: 1px solid #30bae7;
+    color: #fff;
+    font-size: 18px;
+    transition: .4s ease-in-out;
+    margin-top: 30px;
+
+}
+
+
+.send-msg a:hover{
+	background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.send-msg a:active{
+	box-shadow: none!important;
+	border: 1px solid transparent!important;
+}
+.send-msg a:focus{
+	box-shadow: none!important;
+	border: 1px solid transparent!important;
+}
+
+
+
+   /*footer-section*/
+
+
+.footer-section{
+	width: 100%;
+	background: #344b8e;
+	border-top: 1px solid #3c5499;
+}
+
+.footer-section .social-parts{
+	width: 100%;
+	padding: 10px 0px;
+
+}
+
+.footer-section .social-parts ul{
+	display: block;
+	margin: 0 !important;
+}
+
+.footer-section .social-parts ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 0 45px;
+	padding: 10px 0px;
+}
+
+.footer-section .social-parts ul li a{
+	list-style: none;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 600;
+	transition: .4s;
+}
+
+.footer-section .social-parts ul li a:hover{
+	text-decoration: none;
+	color: #30bae7;
+}
+
+
+
+
+/*********************************RESPONSIVE************************************/
+
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+ 	.header-section {
+    	padding: 10px 0 0px;
+	
+	}
+
+	.banner-text {
+    
+	    padding: 0px 0px;
+
+	}
+
+	.banner-text h1 {
+	    font-size: 25px;
+	    padding: 15px 0 15px;
+
+	}
+
+	.banner-text a{
+		padding: 7px 10px;
+	    font-size: 14px;
+	    margin-bottom: 20px;
+	}
+	
+  	.service-section {
+    
+	    padding: 20px 0px;
+
+	}
+
+	.service-section .service-headings h2 {
+	    font-size: 25px;
+	
+	}
+
+	.service-section .service-headings p {
+	    font-size: 14px;
+	    padding: 0 25px;
+	
+	}
+
+	.service-section .icons {
+	    padding: 0px 0px 20px;
+	}
+
+	.service-section .icons img {
+
+	    padding-bottom: 10px;
+	    max-width: 35%;
+	}
+
+	.service-section .icons h4 {
+	    font-size: 20px;
+	    padding-bottom: 0px;
+	}
+
+	.service-section .icons p {
+	    font-size: 14px;
+	    padding-bottom: 10px;
+	}
+	.team-details{
+		padding: 0;
+	}
+	.team-details .team-heading h1 {
+	    font-size: 24px;
+	
+	}
+
+	.team-details .team-heading p {
+	    font-size: 14px;
+	}
+
+	.team-details .team-icons {
+	    padding: 0px 0 20px;
+	}
+
+	.team-details .team-icons img {
+	    
+	    width: 40%;
+	}
+
+	.team-details .team-icons h6 {
+	    font-size: 18px;
+	}
+
+	.team-details .team-icons .position {
+	    font-size: 14px;
+	    margin-bottom: 5px;
+	}
+
+	.team-details .team-icons .position p{
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+
+	.skills-section{
+		padding: 0;
+	}
+
+	.skills-section .skills-heading h1 {
+	    font-size: 24px;
+	}
+
+	.skills-section .skills-heading p {
+	    font-size: 14px;
+	    padding: 0 30px;
+	}
+
+	.skills-section .progress-section {
+	    width: 100%;
+	    padding: 5px 0px;
+
+	}
+
+	.skills-section .progress-section h5 {
+	    font-size: 20px;
+
+	}
+
+	.aboutus-section {
+	    padding: 0px 0px;
+
+	}
+	.aboutus-section .port-texts h4 {
+	    font-size: 24px;
+	}
+
+	.aboutus-section .port-texts p {
+	    font-size: 14px;
+	    padding: 0px 26px;
+	}
+	.aboutus-section .port-texts {
+	    width: 100%;
+	    padding: 20px 0px 0px;
+	}
+
+	.abouts-butn {
+    	padding: 0px 0 20px;
+	}
+	.port-inner img {
+	    max-width: 75%;
+	    margin-bottom: 15px;
+	}
+
+	.port-inner h6 {
+
+    	padding-bottom: 20px;
+	}
+	.for-buton a {
+	    padding: 7px 9px;
+	    margin-bottom: 20px;
+	    font-size: 16px;
+
+	}
+	.peoples-recomendetion {
+	    width: 100%;
+	    padding: 0px 0px 0px;
+	}
+
+
+	.peoples-recomendetion .peoples-texts h4 {
+    	font-size: 24px;
+	}
+
+	.peoples-recomendetion .peoples-texts {
+   		padding: 30px 0px 10px;
+	}
+
+	.peoples-recomendetion .clients-image {
+
+    	text-align: center;
+	}
+	.peoples-recomendetion .clients-comment p {
+	    font-size: 14px;
+	    text-align: center;
+	}
+	.peoples-recomendetion .clients-comment h5 {
+	    font-size: 18px;
+	    text-align: center;
+	}
+	.peoples-recomendetion .clients-comment h6 {
+	    font-size: 14px;
+	    text-align: center;
+	}
+	.peoples-recomendetion .clients-comment {
+    	padding: 0 0px 20px;
+	}
+	.peoples-recomendetion .clients-image img {
+    	margin-bottom: 10px;
+	}
+
+	.get-touch {
+
+    	padding: 0px 0px 0px;
+	}
+
+	.get-touch .touch-texts h4 {
+    	font-size: 24px;
+	}
+
+	.get-touch .touch-texts p {
+    	font-size: 14px;
+    	padding: 0 20px;
+	}
+
+	.get-touch .touch-texts {
+    	width: 100%;
+    	padding: 30px 0px 10px;
+	
+	}
+
+	.get-touch .form-control {
+	    padding: 17px 11px;
+	    font-size: 14px;
+
+	}
+	.get-touch textarea {
+	    height: 90px;
+	    padding: 11px 10px;
+	}
+
+	.send-msg a {
+	    padding: 7px 10px;
+	    font-size: 14px;
+	    margin-top: 8px;
+	    margin-bottom: 12px;
+	}
+
+	.footer-section .social-parts ul li a {
+
+    	font-size: 14px;
+
+	}
+
+}
+
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+ 
+ 	.header-section {
+    	padding: 10px 0 0px;
+	
+	}
+
+	.banner-text {
+    
+    	padding: 0px 0px;
+
+	}
+
+	.banner-text h1 {
+	    font-size: 25px;
+	    padding: 15px 0 15px;
+
+	}
+
+	.banner-text a{
+		padding: 7px 10px;
+	    font-size: 14px;
+	    margin-bottom: 20px;
+	}
+  	.service-section {
+    
+    	padding: 10px 0px 25px;
+
+	}
+
+	.service-section .service-headings h2 {
+    	font-size: 25px;
+	
+	}
+
+	.service-section .service-headings p {
+    	font-size: 14px;
+    	padding: 0 25px;
+	
+	}
+
+	.service-section .icons {
+
+    	padding: 35px 0px 0px;
+	}
+
+	.service-section .icons img {
+
+    	padding-bottom: 10px;
+	}
+
+	.service-section .icons h4 {
+	    font-size: 20px;
+	    padding-bottom: 0px;
+	}
+
+	.service-section .icons p {
+	    font-size: 14px;
+	    padding-bottom: 10px;
+	}
+	.team-details{
+		padding: 0;
+	}
+	.team-details .team-heading h1 {
+    	font-size: 24px;
+	
+	}
+
+	.team-details .team-heading p {
+    	font-size: 14px;
+	}
+
+	.team-details .team-icons {
+    	padding: 0px 0 20px;
+	}
+
+	.team-details .team-icons h6 {
+    	font-size: 18px;
+	}
+
+	.team-details .team-icons .position {
+	    font-size: 14px;
+	    margin-bottom: 5px;
+	}
+
+	.team-details .team-icons .position p{
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+
+	.skills-section{
+		padding: 0;
+	}
+
+	.skills-section .skills-heading h1 {
+    	font-size: 24px;
+	}
+
+	.skills-section .skills-heading p {
+	    font-size: 14px;
+	    padding: 0 30px;
+	}
+
+	.skills-section .progress-section {
+	    width: 100%;
+	    padding: 5px 0px;
+
+	}
+
+	.skills-section .progress-section h5 {
+    	font-size: 20px;
+
+	}
+
+	.aboutus-section {
+    	padding: 0px 0px;
+
+	}
+	.aboutus-section .port-texts h4 {
+    	font-size: 24px;
+	}
+
+	.aboutus-section .port-texts p {
+	    font-size: 14px;
+	    padding: 0px 26px 10px;
+	}
+	.aboutus-section .port-texts {
+	    width: 100%;
+	    padding: 20px 0px 0px;
+	}
+
+	.abouts-butn {
+    	padding: 0px 0 20px;
+	}
+	.port-inner img {
+	    max-width: 75%;
+	    margin-bottom: 15px;
+	}
+
+	.port-inner h6 {
+
+    	padding-bottom: 20px;
+	}
+	.for-buton a {
+	    padding: 7px 9px;
+	    margin-bottom: 20px;
+	    font-size: 16px;
+
+	}
+	.peoples-recomendetion {
+	    width: 100%;
+	    padding: 0px 0px 0px;
+	}
+
+
+	.peoples-recomendetion .peoples-texts h4 {
+    	font-size: 24px;
+	}
+
+	.peoples-recomendetion .peoples-texts {
+    	padding: 30px 0px 20px;
+	}
+
+	.peoples-recomendetion .clients-image {
+
+    	text-align: center;
+	}
+	.peoples-recomendetion .clients-comment p {
+	    font-size: 14px;
+	    text-align: center;
+	}
+	.peoples-recomendetion .clients-comment h5 {
+	    font-size: 18px;
+	    text-align: center;
+	}
+	.peoples-recomendetion .clients-comment h6 {
+	    font-size: 14px;
+	    text-align: center;
+	}
+	.peoples-recomendetion .clients-comment {
+    	padding: 0 0px 20px;
+	}
+	.peoples-recomendetion .clients-image img {
+    	margin-bottom: 10px;
+	}
+
+	.get-touch {
+
+    	padding: 0px 0px 0px;
+	}
+
+	.get-touch .touch-texts h4 {
+	    font-size: 24px;
+	}
+
+	.get-touch .touch-texts p {
+	    font-size: 14px;
+	    padding: 0 20px;
+	}
+
+	.get-touch .touch-texts {
+	    width: 100%;
+	    padding: 30px 0px 10px;
+	
+	}
+
+	.get-touch .form-control {
+	    padding: 17px 11px;
+	    font-size: 14px;
+
+	}
+	.get-touch textarea {
+	    height: 90px;
+	    padding: 11px 10px;
+	}
+
+	.send-msg a {
+	    padding: 7px 10px;
+	    font-size: 14px;
+	    margin-top: 8px;
+	    margin-bottom: 25px;
+	}
+
+	.footer-section .social-parts ul li a {
+
+    	font-size: 14px;
+
+	}
+
+
+
+}
+
+
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) /*and (orientation: landscape)*/ {
+
+
+	p{
+		font-size: 14px;
+	}
+  
+ 	.banner-text {
+
+    	padding: 40px 0px 0px;
+	}
+
+	.banner-text h1 {
+	    font-size: 35px;
+	    padding-bottom: 20px;
+	}
+
+	.service-section {
+	    padding: 40px 0px 20px;
+	}
+	.service-section .service-headings h2 {
+	    font-size: 35px;
+	    
+	}
+	.service-section .icons img {
+	    max-width: 100%;
+	    padding-bottom: 20px;
+	}
+
+	.service-section .icons h4 {
+	    font-size: 20px;
+	    padding-bottom: 5px;
+	}
+
+	.team-details{
+		padding: 40px 0px 20px;
+	}
+
+
+	.team-details .team-heading h1 {
+    	font-size: 35px;
+    
+	}
+	.team-details .team-icons h6 {
+    	font-size: 19px;
+	
+	}
+	.skills-section{
+		 padding: 40px 0px 20px;
+	}
+	.skills-section .progress-section img {
+    	max-width: 90%;
+	}
+
+	.skills-section .skills-heading h1 {
+   		font-size: 35px;
+	}
+
+	.skills-section .progress-section h5 {
+    	font-size: 20px;
+
+	}
+	.aboutus-section {
+	    width: 100%;
+	    padding: 40px 0px 60px;
+    
+	}
+
+
+	.port-inner img {
+    	max-width: 90%;
+    
+	}
+
+	.abouts-butn {
+
+	    padding: 0px 0 30px;
+	}
+
+
+	.for-buton a {
+		padding: 8px 20px;
+		font-size: 16px;
+	}
+
+	.get-touch {
+    	padding: 40px 0px 65px;
+	}
+
+	.get-touch .touch-texts h4 {
+	    font-size: 35px;
+	    
+	}
+
+
+	.get-touch textarea {
+
+    	height: 130px;
+
+	}
+	.send-msg a {
+	    padding: 8px 25px;
+	    font-size: 16px;
+	    margin-top: 20px;
+	}
+
+
+	.peoples-recomendetion .peoples-texts h4 {
+	    font-size: 35px;
+
+	}
+
+	.peoples-recomendetion {
+	    width: 100%;
+	    padding: 40px 0px 0px;
+	}
+
+
+	.footer-section .social-parts ul li {
+	    margin: 0 15px;
+	    padding: 5px 0px;
+	}
+
+	.peoples-recomendetion .clients-comment h5 {
+	    font-size: 20px;
+	  
+	}
+
+
+	.footer-section .social-parts ul li a {
+    	color: #fff;
+	    font-weight: 500;
+	}
+ 
+}
+
+
+
+
+
